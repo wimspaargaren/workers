@@ -44,7 +44,7 @@ func main() {
 		randomProcessor.process,
 	)
 	go func() {
-        // add jobs to process
+        	// add jobs to process
 		for i := 0; i < 42; i++ {
 			err := workerPool.AddJob(i)
 			if err != nil {
