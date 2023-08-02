@@ -1,5 +1,5 @@
 # Go Generic Worker Pool
-[![Build Status](https://github.com/wimspaargaren/workers/workflows/CI/badge.svg)](https://github.com/wimspaargaren/workers/actions)
+[![Build Status](https://github.com/wimspaargaren/workers/workflows/ci/badge.svg)](https://github.com/wimspaargaren/workers/actions)
 [![Go Reference](https://pkg.go.dev/badge/github.com/wimspaargaren/workers.svg)](https://pkg.go.dev/github.com/wimspaargaren/workers)
 
 This repository provides a generic, easy to use worker pool.
