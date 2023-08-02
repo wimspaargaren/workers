@@ -39,7 +39,7 @@ func main() {
 	randomProcessor := myRandomProcessor{
 		rand: rand.New(rand.NewSource(time.Now().Unix())),
 	}
-    // create a new default buffered pool
+    	// create a new default buffered pool
 	workerPool := workers.NewBufferedPool(context.Background(),
 		randomProcessor.process,
 	)
@@ -55,7 +55,7 @@ func main() {
 		workerPool.Done()
 	}()
 
-    // await until all jobs are processed
+    	// await until all jobs are processed
 	results, err := workerPool.AwaitResults()
 	if err != nil {
 		// handle me
